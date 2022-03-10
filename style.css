@@ -128,3 +128,48 @@ button:hover {
 .filled-progress {
   background-color: #fff;
 }
+
+@media (max-width: 1024px) {
+  .speed-btns {
+    left: 50%;
+  }
+}
+
+@media (max-width: 820px) {
+  .speed-btns {
+    left: 45%;
+  }
+}
+
+@media (max-width: 540px) {
+  .video-duration {
+    display: none;
+  }
+  .play-btn {
+    padding-right: 40%;
+  }
+  .speed-btns {
+    left: 25%;
+  }
+  .volume-range {
+    width: 10%;
+  }
+}
+
+@media (max-width: 414px) {
+  .volume-range {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .play-btn {
+    padding-right: 35%;
+  }
+}
+@media (max-width: 280px) {
+  .forward-btn,
+  .backward-btn {
+    display: none;
+  }
+}
